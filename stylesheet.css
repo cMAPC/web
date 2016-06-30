@@ -1,0 +1,146 @@
+
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  position: relative;
+  max-height: 25%;
+}
+
+.container .mountain{
+  position: relative;
+  max-height: 25%;
+  /*background-color: red;*/
+  /*background: url(images/mountain1.jpg) center no-repeat;*/
+  /*background-size: cover;*/
+  z-index: 2;
+}
+
+.container .mountain img{
+  height: auto;
+  max-width: 92%;
+  margin-left: 4.6%;
+  transform: scale(0.96);
+  display: block;
+  z-index: 1;
+}
+
+
+.container .mountain-background{
+  /*background-color: green;*/
+  position: absolute;
+  height: 75%;
+  width: 92%;
+  max-width: 100%;
+  top: 0;
+  box-shadow: 0 28px 57px rgba(0, 0, 0, 0.3);
+  /*margin-left: 5.4%;
+  margin-top: 2.6%;*/
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-right: 4%;
+  background: url(images/mountain1.jpg) center  no-repeat;
+  background-size: cover;
+  z-index: 4;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+
+
+
+ .menu ul{
+  background-color: #43a286;
+  /*overflow: hidden;*/
+  color:white;
+  padding: 0;
+  /*top: 75%;*/
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+
+.menu ul li{
+  display: inline-block;
+  padding: 20px;
+
+  /*position: relative;*/
+}
+
+.menu ul li:hover{
+  background-color: #000000;
+  opacity: 0.2;
+}
+
+
+.text{
+  font-size: 100px;
+}
+
+
+.container .top-bar{
+  z-index: 3;
+  background-color: #43a286;
+  height: 48%;
+  width: 100%;
+  position: absolute;
+  top: 52%;
+  /*left: -9999px;*/
+  /*opacity: 0.5;*/
+}
+
+.menu ul ul{
+  position: absolute;
+  display: none;
+  background-color: red;
+  top:100%;
+  width: inherit;
+  /*padding: 0;*/
+  /*margin-left:-10px;*/
+}
+
+.menu ul ul li{
+  display: list-item;
+  padding: 20px;
+  /*margin-left: -20px;*/
+  /*width: inherit;*/
+}
+
+.menu ul li:hover > ul{
+  display: block;
+  /*visibility: visible;*/
+}
+
+
+
+
+
+
+/*nav ul li ul{
+  background-color: red;
+  padding: 0;
+  display: none;
+  position: absolute;
+
+
+}*/
+
+/*nav ul li:hover ul {
+    display: block;
+    visibility: visible;
+}
+
+nav ul li ul li{
+
+  display: list-item;
+  padding: 20px;
+}*/
